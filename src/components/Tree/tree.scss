@@ -1,0 +1,51 @@
+.tree{
+  display: flex;
+  flex-direction: column;
+  .folder--label{
+    background-color: white;
+    margin:2px 0px;
+    display: flex;
+    align-items: center;
+    &.hovering{
+      background-color: rgba(26,59,221,.01);
+      color: #003A70;
+    }
+    &.treeselected{
+      background-color: rgba(26,59,221, .25);
+    }
+    .icon-hovering {
+      filter: invert(13%) sepia(82%) saturate(2488%) hue-rotate(194deg) brightness(98%) contrast(103%); /* https://codepen.io/sosuke/pen/Pjoqqp */
+    }
+  }
+  .tree-file{
+    background-color: white;
+    margin:2px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &.hovering{
+      background-color: #EBF0F7;
+      color: #003A70;
+    }
+    .icon-hovering {
+      filter: invert(13%) sepia(82%) saturate(2488%) hue-rotate(194deg) brightness(98%) contrast(103%); /* https://codepen.io/sosuke/pen/Pjoqqp */
+    }
+  }
+  span {
+    margin-left: 4px;
+    width: -webkit-fill-available;
+  }
+}
+
+
+
+.collapsible {
+    overflow: hidden;
+    height: auto;
+}
+.collapsed {
+    height: 0;
+}
+
+
+

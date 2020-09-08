@@ -1,0 +1,85 @@
+.App {
+  font-family: "Inter", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.header{
+  width: 100%;
+  height: 56px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.header-text{
+  color: #0659D4;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.Left img {
+  filter: invert(25%) sepia(90%) saturate(1813%) hue-rotate(204deg) brightness(93%) contrast(106%);
+}
+
+.Right img {
+  /* filter: invert(25%) sepia(90%) saturate(1813%) hue-rotate(204deg) brightness(93%) contrast(106%); */
+  margin-right: 12px;
+}
+
+.Right img:hover{
+  filter: invert(25%) sepia(90%) saturate(1813%) hue-rotate(204deg) brightness(93%) contrast(106%);
+}
+
+.Middle .input{
+  width: 256px;
+}
+
+.menu {
+  padding-left: 12px;
+  padding-top: 4px;
+  align-items: flex-start;
+  display: flex;
+  background-color: white;
+  width: 100%;
+}
+
+.breadcrumbs{
+  padding-top: 8px;
+  padding-left: 12px;
+  font-size: 14px;
+}
+
+.breadcrumb{
+  text-decoration: underline;
+}
+
+.breadcrumb:hover{
+  color: #0659D4;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 12px;
+  margin-top: 24px;
+  width: calc(100vw - 24px);
+}
+
+.main-container .title {
+  font-size: 32px;
+  padding: 0px 0 12px 0px;
+  display: flex;
+}
+
+.content-header{
+  &.top-header {
+    margin: 12px 4px 12px 4px;
+  }
+}

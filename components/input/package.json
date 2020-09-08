@@ -1,0 +1,22 @@
+{
+  "name": "@bit/dpeet.ux-components.input",
+  "version": "1.0.1",
+  "homepage": "https://bit.dev/dpeet/ux-components/input",
+  "main": "dist/input.js",
+  "componentId": {
+    "scope": "dpeet.ux-components",
+    "name": "input",
+    "version": "1.0.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.20"
+    }
+  }
+}

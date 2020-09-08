@@ -1,0 +1,13 @@
+.menu-item{
+    padding: 12px 8px;
+    margin: 0px 4px;
+    font-size: 12px;
+    &:hover {
+        color: #0659D4; 
+    }
+    &.selected {
+        color: #0659D4;
+        border-bottom: 2px solid #0659D4;
+    }
+}
+
